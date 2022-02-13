@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #020631;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    height: 10rem;
+    width: 10rem;
+    margin:10%;
+}
+
+h1{
+    color: white;
+    margin-bottom: 5%;
+}
+
+#todo{
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+#to__do--text{
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    border-radius: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+#to__do--text:focus{
+    outline: none;
+}
+
+#to__do__button{
+    background-color: white;
+    border:none;
+    margin-right: 0.5rem;
+}
+
+#to__do__button:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+#to__do__button{
+    outline: none;
+}
+
+#thanks{
+    color: #2C2C33;
+    margin-top: 4rem;
+    text-align: center;
+
+}
+
+#thanks__to{
+    color: #265C94;
+}
