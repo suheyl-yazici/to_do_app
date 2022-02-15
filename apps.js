@@ -32,10 +32,21 @@ toButton.addEventListener("click", ()=> {
     toText.value = "";
     li.appendChild(del_icon);
 
-
     del_icon.addEventListener("click", (e)=>{
         e.target.parentElement.remove();
     });
+
     
+    li.addEventListener("click", ()=>{
+        if(li.style.backgroundColor != "white"){
+            li.style.backgroundColor = "aqua";
+        } 
+    })
+
+
+
 });
+
+
+
 
